@@ -120,5 +120,31 @@ alert(area);
 alert(perimeter);
 
 //5 Calculate the slope, x-intercept and y-intercept of y = 2x -2
+let x = prompt("Enter a value for X");
+let y = 2 * x - 2;
+alert("the slope is ${y}");
+
 //6 Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
+let m = (10 - 2) / (6 - 2);
+alert(m);
+
 //7 Compare the slope of above two questions.
+console.log(y == m);
+
+//8
+y = x * x + 6 * x + 9;
+x = prompt("Enter a value for x");
+console.log(y);
+
+//9
+
+//10
+let name = prompt("Enter your name");
+let nameLenght = name.length
+nameLenght > 7 ? alert("your name is long");
+alert("your name is short");
+
+
+//11 
+const todaysDate = newDate();
+console.log(todaysDate)
