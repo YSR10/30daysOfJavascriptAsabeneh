@@ -24,7 +24,7 @@ console.log("mixedDataTypes of mixedDataTypes:", mixedDataTypes.length);
 
 //6 Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
 
-let itCompanies = [
+const itCompanies = [
   "Facebook",
   "Google",
   "Microsoft",
@@ -90,3 +90,46 @@ console.log(companies[6].toUpperCase());
 //13 Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
 
 //14 Filter out companies which have more than one 'o' without the filter method
+
+//15 Sort the array using sort() method
+itCompanies.sort();
+console.log(itCompanies);
+
+//16 Reverse the array using reverse() method
+itCompanies.reverse();
+console.log(itCompanies);
+//17 Slice out the first 3 companies from the array
+console.log(itCompanies.slice(3, 0, 1, 2));
+//18 Slice out the last 3 companies from the array
+console.log(itCompanies.slice(3, 4, 5, 6));
+//19 Slice out the middle IT company or companies from the array
+console.log(itCompanies.slice(3, 3));
+//20 Remove the first IT company from the array
+itCompanies.shift();
+console.log(itCompanies);
+//21 Remove the middle IT company or const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']companies from the array
+//22 Remove the last IT company from the array
+itCompanies.pop();
+console.log(itCompanies);
+//23 Remove all IT companies
+
+//EXE2
+
+//3 In the following shopping cart add, remove, edit items
+//const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+//add 'Meat' in the beginning of your shopping cart if it has not been already added
+//add Sugar at the end of you shopping cart if it has not been already added
+//remove 'Honey' if you are allergic to honey
+//modify Tea to 'Green Tea'
+
+const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+shoppingCart.unshift("Meat");
+console.log(shoppingCart);
+shoppingCart.push("Sugar");
+console.log(shoppingCart);
+shoppingCart.pop("Honey");
+console.log(shoppingCart);
+shoppingCart[3] = "Green Tea";
+console.log(shoppingCart);
+
+//4 In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
