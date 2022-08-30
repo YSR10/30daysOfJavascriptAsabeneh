@@ -193,3 +193,12 @@ for (let i = 0; i <= 20; i++) {
   id = id + yasir.charAt(icon);
 }
 console.log(id);
+
+//2 Write a script which generates a random hexadecimal number.
+let hexadecimal = "#erynkm#b4325678#h5nl#nmjv3";
+id = "";
+for (let i = 0; i <= 6; i++) {
+  const alpha = Math.floor(Math.random() * hexadecimal.length);
+  id = id + hexadecimal.charAt(alpha);
+}
+console.log(id);
