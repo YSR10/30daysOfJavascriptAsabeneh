@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: max-content;
+}
+
+main {
+  width: 28rem;
+  height: 28rem;
+  background-color: lightblue;
+  padding: 4rem 3.5rem;
+  margin: 8rem auto;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+}

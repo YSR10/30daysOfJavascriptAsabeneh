@@ -6,7 +6,7 @@
 
 //let secondComment = 'Welcome to 30DaysOfJavascript';
 
-//3Write a multiline comment which says, comments can make code readable, easy to reuse and informative
+//3 Write a multiline comment which says, comments can make code readable, easy to reuse and informative
 
 /*let comments = 'comments 
 can make code readable, easy to reuse and informative';
@@ -39,7 +39,7 @@ console.log(data);
 var nullDate;
 console.log(nullDate);
 
-//7Declare four variables with assigned values
+//7 Declare four variables with assigned values
 
 let easy = "take it easy";
 console.log(easy);
@@ -55,7 +55,7 @@ console.log(boilingPoint);
 let boy = "is a male";
 console.log(boy);
 
-//8Declare variables to store your first name, last name, marital status, country and age in multiple lines
+//8 Declare variables to store your first name, last name, marital status, country and age in multiple lines
 
 let firstName = "yasir"; // first name of a person
 console.log(firstName);

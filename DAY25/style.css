@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: max-content;
+  width: 100vw;
+  position: sticky;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+header h1 {
+  color: orange;
+  font-size: 2rem;
+  font-weight: 700;
+}
+header p {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+.sec-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.click {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  font-weight: 700;
+  font-family: inherit;
+  margin-bottom: 0.3rem;
+  gap: 2rem;
+}
+.lang {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  padding: 1rem;
+  padding-left: 8rem;
+}
+
+.count {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  padding: 1rem;
+  padding-left: 8rem;
+}
+ul {
+  list-style: none;
+}
+
+.bar {
+  height: 2rem;
+  background-color: orange;
+}
+.po {
+  display: grid;
+  grid-template-columns: 10rem 1fr 5rem;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
